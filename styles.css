@@ -1,7 +1,73 @@
-h1 {
-    color: red;
+h1,
+a,
+p,
+h5,
+h4,
+h3 {
+    color: darkslategray;
+    font-family: monospace, sans-serif;
+    text-align: center;
 }
 
-.main-heading {
-    color: black;
+.bold {
+    font-weight: bold;
+}
+
+body {
+    background-color: slategray;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+a {
+    display: block;
+    margin: 5px 5px;
+}
+
+p {
+    margin: 5px 5px;
+}
+
+.front-page {
+    background-color: lightblue;
+    border: 3px solid lightseagreen;
+    margin: auto;
+    width: 50%;
+}
+
+.items {
+    margin: auto;
+    width: 20%;
+}
+
+img {
+    display: block;
+    width: 300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ingredients {
+    width: 45%;
+    text-align: center;
+    border: 3px solid lightseagreen;
+    border-radius: 10px;
+    margin-left: 2%;
+    float: left;
+}
+
+.steps {
+    width: 45%;
+    float: left;
+    padding: 10px;
+    position: relative;
+    bottom: 50px;
+}
+
+li {
+    font-size: 14px;
 }
