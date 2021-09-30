@@ -9,10 +9,6 @@ h3 {
     text-align: center;
 }
 
-h4 {
-    font-size: larger;
-}
-
 .bold {
     font-weight: bold;
 }
@@ -49,7 +45,7 @@ p {
     background-color: rgba(216, 216, 216, 0.6);
     border: 3px solid darkslategray;
     margin: auto;
-    width: 50%;
+    width: 60%;
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 4px 8px 1px slategray;
@@ -69,23 +65,25 @@ img {
 }
 
 .ingredients {
-    width: 45%;
+    width: 30;
     text-align: center;
-    border: 3px solid darkslategray;
-    border-radius: 10px;
-    margin-left: 2%;
-    float: left;
-    margin-top: 35px;
+    margin-right: 3%;
 }
 
 .steps {
-    width: 48%;
-    float: left;
-    padding: 10px;
-    position: relative;
-    bottom: 50px;
+    width: 70%;
 }
 
 li {
     font-size: 14px;
+}
+
+.ing {
+    display: flex;
+    justify-content: center;
+}
+
+ul,
+ol {
+    padding-left: 10px;
 }
